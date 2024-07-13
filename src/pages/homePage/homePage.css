@@ -1,0 +1,17 @@
+
+.homepage-div{
+    overflow-x: hidden;
+}
+.homepage-main-content{
+    margin-top: 13vh;
+    /*background-color: #B6BBC4;*/
+    min-height: 50vh;
+}
+
+
+@media screen and (max-width: 850px) {
+    .homepage-main-content{
+        margin-top: 9vh;
+        min-height: 0;
+    }
+}
